@@ -1,0 +1,143 @@
+hr{
+
+  border-top: 2px solid black;
+
+}
+#vr{
+  display: inline;
+padding-inline-end: 150px;}
+div {
+    margin-bottom: 3em;
+    text-align: center;
+    }
+p{
+padding-top: 25px;
+background-color: white;
+width: 50%;
+border-radius: 30px;
+}
+button{
+    display: block;
+    width: 50px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+button:focus{
+
+    outline:none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75% ;
+  
+  }
+  .grid-item {
+    border-radius:5px;
+    border: none;
+    font-size: 30px;
+  }
+  .sidenav {
+    height: 100%;
+    width:24%;
+    position: fixed;
+    z-index: 1;
+    
+  
+    overflow-x: hidden;
+  }
+  #green{
+      background-color: green;
+  }
+  #red{
+      margin-top: 50px;
+      background-color: red;
+  }
+  #orange{
+      background-color: orange;
+  }
+  #purple{
+
+    background-color: purple;
+  }
+  #blue{
+      background-color: blue;
+  }
+  .grid-rows {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25% ;
+  
+  }
+  .grid-item-rows {
+    border-radius:5px;
+    border: none;
+    font-size: 30px;}
+    /* RESET STYLES & HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --level-1: #8dccad;
+  --level-2: #f5cc7f;
+  --level-3: #7b9fe0;
+  --level-4: #f27c8d;
+  --black: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ol {
+  list-style: none;
+}
+
+body {
+  margin: 50px 0 100px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.rectangle {
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* LEVEL-1 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-1 {
+  width: 50%;
+  margin: 0 auto 40px;
+  background: var(--level-1);
+  font-size: 20px;
+}
+
+.level-1::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background: var(--black);
+}
+
+#in{
+font-size: 10px;
+margin-left: 20px;
+  display: inline;
+}
+a{
+  display: block;
+}
